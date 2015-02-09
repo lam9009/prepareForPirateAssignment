@@ -36,6 +36,15 @@
     
     self.currentPoint =CGPointMake(6, 8);
     NSLog(@"%f, %f", self.currentPoint.x, self.currentPoint.y);
+    //
+    int x = 10;
+    int y = 12;
+    if (x==10){
+        NSLog(@"x equals 10");
+        if (y==12) {
+            NSLog(@"Both are true");
+        }
+    }
     
 }
 
