@@ -16,7 +16,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSString *firstString = @"FirstString";
+    NSString *secondString = @"secondString";
+    NSArray *myArray = [[NSArray alloc] initWithObjects:firstString,secondString,nil];
+    NSLog(@"%@",myArray);
+    
+    NSMutableArray *myMutableArray = [[NSMutableArray alloc] init];
+    [myMutableArray addObject:firstString];
+    [myMutableArray addObject:secondString];
+    [myMutableArray addObject:myArray];
+    NSLog(@"%@",myMutableArray);
+    
+    NSArray *myArray2 = [[NSArray alloc] initWithObjects:myMutableArray,firstString, nil];
+    NSLog(@"%@",myArray2);
+    
+    //
+    CGPoint myPoint = CGPointMake(3, 4);
+    NSLog(@"%f, %f", myPoint.x, myPoint.y);
+    
+    self.currentPoint =CGPointMake(6, 8);
+    NSLog(@"%f, %f", self.currentPoint.x, self.currentPoint.y);
+    
 }
 
 - (void)didReceiveMemoryWarning {
