@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
@@ -16,6 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSString *testString = @"i have a value";
+    if (testString !=nil) {
+        NSLog(@"The testString has a value!");
+    }
+    
+    self.awesomeClass = [[AwesomeClass alloc] init];
+    
     NSString *firstString = @"FirstString";
     NSString *secondString = @"secondString";
     NSArray *myArray = [[NSArray alloc] initWithObjects:firstString,secondString,nil];
@@ -45,7 +54,10 @@
             NSLog(@"Both are true");
         }
     }
-    
+    [self.myButton setTitle:@"Button Pressed" forState:UIControlStateNormal];
+    self.myButton.hidden = YES;
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Alert!" message:@"You triggered the alert" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:nil];
+    [alertView show];
 }
 
 - (void)didReceiveMemoryWarning {

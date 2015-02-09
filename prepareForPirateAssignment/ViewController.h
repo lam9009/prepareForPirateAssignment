@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AwesomeClass.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) AwesomeClass *awesomeClass;
+
 @property (nonatomic) CGPoint currentPoint;
+
+@property (strong, nonatomic) IBOutlet UIButton *myButton;
 
 @end
 

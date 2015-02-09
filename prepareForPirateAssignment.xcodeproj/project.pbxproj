@@ -14,6 +14,7 @@
 		DFFF4B781A8857630005555A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFF4B771A8857630005555A /* Images.xcassets */; };
 		DFFF4B7B1A8857630005555A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFF4B791A8857630005555A /* LaunchScreen.xib */; };
 		DFFF4B871A8857630005555A /* prepareForPirateAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFF4B861A8857630005555A /* prepareForPirateAssignmentTests.m */; };
+		DFFF4B921A887F810005555A /* AwesomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFF4B911A887F810005555A /* AwesomeClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DFFF4B801A8857630005555A /* prepareForPirateAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prepareForPirateAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFF4B851A8857630005555A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFFF4B861A8857630005555A /* prepareForPirateAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prepareForPirateAssignmentTests.m; sourceTree = "<group>"; };
+		DFFF4B901A887F810005555A /* AwesomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeClass.h; sourceTree = "<group>"; };
+		DFFF4B911A887F810005555A /* AwesomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				DFFF4B6F1A8857630005555A /* AppDelegate.m */,
 				DFFF4B711A8857630005555A /* ViewController.h */,
 				DFFF4B721A8857630005555A /* ViewController.m */,
+				DFFF4B901A887F810005555A /* AwesomeClass.h */,
+				DFFF4B911A887F810005555A /* AwesomeClass.m */,
 				DFFF4B741A8857630005555A /* Main.storyboard */,
 				DFFF4B771A8857630005555A /* Images.xcassets */,
 				DFFF4B791A8857630005555A /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFF4B921A887F810005555A /* AwesomeClass.m in Sources */,
 				DFFF4B731A8857630005555A /* ViewController.m in Sources */,
 				DFFF4B701A8857630005555A /* AppDelegate.m in Sources */,
 				DFFF4B6D1A8857630005555A /* main.m in Sources */,
